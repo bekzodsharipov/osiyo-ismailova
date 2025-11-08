@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Osiyo Ismailova</title>
+  <style>
+a { text-decoration: none; color: white; } .date__container, .date__top { display: flex; align-items: center; } .center, .container, .date, .date__inner-list, .date__inner-text { position: relative; } .date__inner { position: relative; z-index: 30; width: 100%; } .footer-info h2 { margin-bottom: 10px; } * { margin: 0; padding: 0; box-sizing: border-box; } body { background-color: #171717; font-family: Montserrat, sans-serif; font-weight: 400; } a, li, ol, ul { list-style: none; text-decoration: none; } .container { max-width: 1624px; width: 100%; margin: 0 auto; padding: 0 20px; position: relative; } .bee_decor { position: absolute; } .bee_decor:last-child { right: -82px; top: -50px; } .date { padding: 136px 0 91px; background-color: #171717; color: #fff; overflow: hidden; min-height: 100vh; } .date__top-left { display: flex; align-items: center; justify-content: center; } .date__top-left { padding: 5px 22px 5px 22px; border: 1px solid #fff; border-radius: 50px; margin-right: 12px; } .date__top-left-dot { background-color: #33AD15; width: 11px; height: 11px; border-radius: 50%; margin-right: 13px; } .date__top-left-title { font-weight: 500; font-size: 13px; } .date__inner-title { font-family: Mulish, sans-serif; font-weight: 900; font-size: clamp(21px, 5.9vw, 26px); text-transform: uppercase; max-width: 359px; line-height: 125%; margin-bottom: 11px; span { color: #E90000; } } .center { padding-top: 30px; width: 100%; } .date__inner-info { max-width: 292px; width: 100%; margin-left: auto; margin-right: auto; border-radius: 10px; padding: 14px 20px 15px 20px; background-color: #D50606; margin-bottom: 14px; } .date__bottom { margin-bottom: 24px; } .date__bottom-btn { transform-origin: center; animation: pulse 2s ease-in-out infinite; will-change: transform; font-weight: 700; font-size: 18px; padding: 22px 30px; border: none; cursor: pointer; border-radius: 20px; box-shadow: 0px 5px 0px 0px #610606; background: linear-gradient(90deg, #BB0707 0%, #D50606 51%, #BB0707 100%); color: #ffffff; max-width: 331px; width: 100%; display: flex; align-items: center; justify-content: center; gap: 13px; text-transform: uppercase; } .flex { display: flex; align-items: center; gap: 54px; margin-bottom: 30px; } .date__timer { max-width: fit-content; background-color: #fff; color: #000; z-index: 20; padding: 4px 12px 4px 12px; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 700; width: 100%; border-radius: 5px; box-shadow: 2px 2px 10px 1px #d50606; position: relative; z-index: 30; } .date__inner-text { font-weight: 700; font-size: 17px; color: grey; z-index: 20; } .date__inner-free { font-family: Neue Montreal, sans-serif; font-size: 17px; font-weight: 700; text-align: left; line-height: 24px; color: #919191; position: relative; z-index: 30; margin-top: 24px; } .date { padding: 32px 0 31px; } .date__bottom-btn { position: relative; margin-right: 30px; padding: 30px 25px; z-index: 20; } .only_tablet { display: none; } .only_tablet { display: block; } .date__inner-free { font-size: 14px; text-align: center; } .redBorderText { font-family: Montserrat, sans-serif; font-weight: 700; font-style: Bold; font-size: 12px; line-height: 17px; text-align: center; max-width: 245px; border: 1px solid #cc0d10; padding: 5px 14px; border-radius: 10px; margin-left: auto; margin-right: auto; margin-bottom: 20px; } .tablet_hidden { display: none; } .subtitle>br { display: flex; } .flex { flex-direction: column-reverse; align-items: start; gap: 25px; } .date_gradient { display: flex; position: absolute; bottom: -10px; width: 100%; z-index: 20; height: 254px; background: linear-gradient(0deg, #171717 57%, rgba(23, 23, 23, 0) 100%); } .date { padding: 13px 0; text-align: center; } .date__container { flex-direction: column; max-width: 400px; padding-left: 20px; padding-right: 20px; } .date__top { flex-direction: column; margin-bottom: 26px; } .date__inner-list { text-align: start; z-index: 1; margin-bottom: 20px; max-width: 217px; width: 100%; z-index: 30; position: relative; display: flex; flex-direction: column; gap: 10px; } .date__inner-item { font-family: Poppins, sans-serif; font-size: 14px; line-height: 19px; font-weight: 400; } .date__inner-item span { font-weight: 600; color: #CE1002; } .date__inner-list-title { font-size: 16px; max-width: 236px; line-height: 100%; margin-bottom: 4px; font-weight: 700; line-height: 28px; color: #808080; text-align: left; } .date__bottom { flex-direction: column-reverse; align-items: start; z-index: 20; } .date__bottom-btn { margin-top: 43px; padding: 22px 0; width: 100%; margin-right: 0; margin-bottom: 11px; margin-top: 10px; max-width: 331px; margin-left: auto; margin-right: auto; border-radius: 20px; display: flex; z-index: 30; } .gradient { background: linear-gradient(0deg, #171717 72.78%, rgba(23, 23, 23, 0) 100%); width: 200%; left: -50%; height: 284px; position: absolute; bottom: -108px; z-index: 20; } .date__img { position: absolute; top: 4px; width: 268px; height: 457px; right: -70px; object-fit: contain; object-position: top; margin-left: auto; z-index: 20; margin-right: auto; } .date__inner-info-text { margin-bottom: 0px; text-align: center; font-size: 14px; font-weight: 400; line-height: 18px; } @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-150%); } } .mb-20 { margin-bottom: 20px; } .speaker__gradient { background: var(--color-red-43, #D50606); backdrop-filter: blur(0px); width: 268px; height: 295px; border-radius: 999px; opacity: 40%; position: absolute; top: 110px; left: 50%; } @media screen and (max-width: 350px) { .container { padding: 0 10px; } } .mb-0 { margin-bottom: 0; } .mt-0 { margin-top: 0; } .free__text { font-size: 12px; position: relative; z-index: 30; margin-top: -50px; margin-bottom: 15px; display: flex; justify-content: center; align-items: end; svg { margin-bottom: -20px; } } .date__bottom-btn { position: relative; display: inline-block; outline: none; } .date__bottom-btn::after { content: ""; position: absolute; inset: -6px; border-radius: inherit; box-shadow: 0px 5px 0px 0px #610606; animation: cta-pulse 1.8s ease-out infinite; pointer-events: none; } .date__bottom-btn:hover::after, .date__bottom-btn:focus-visible::after { animation-duration: 1.2s; box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.35); } .date__bottom-btn:focus-visible { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.6); border-radius: 9999px; } @media (prefers-reduced-motion: reduce) { .date__bottom-btn::after, .date__bottom-btn:hover::after { animation: none; box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.25); } } @keyframes cta-pulse { 0% { transform: scale(0.98); opacity: 0.55; box-shadow: 0px 5px 0px 0px #A70000; } 60% { transform: scale(1.12); opacity: 0; box-shadow: 0 0 0 18px rgba(59, 130, 246, 0); } 100% { transform: scale(1.12); opacity: 0; box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); } } .blur-up { filter: blur(10px); transition: filter 0.4s ease-out; } .free__text { font-size: 12px; position: relative; z-index: 30; margin-top: -55px; margin-right: -45px; margin-bottom: 15px; display: flex; justify-content: center; align-items: end; img { margin-bottom: -27px; margin-left: -7px; } }
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class="date">
+    <div class="container date__container">
+      <div class="date__top registerBtn">
+        <div class="date__top-left">
+          <div class="date__top-left-dot"></div>
+          <h4 class="date__top-left-title">23-24-25-Sentabr | 20:00</h4>
+        </div>
+      </div>
+      <h1 class="date__inner-title">
+        asabiylik, behollik va <span>dietalarsiz ozishning</span> sinalgan usuli!
+      </h1>
+      <div class="date__inner-info">
+        <p class="date__inner-info-text">
+          Stress, behollik va qayta semirishlarsiz ozishni, garmonlar ilmi orqali o’rganasiz!
+        </p>
+      </div>
+      <div class="center">
+        <h4 class="date__inner-list-title">Masterklassda siz:</h4>
+        <ul class="date__inner-list">
+          <li class="date__inner-item">
+            — Ozish jarayonida <span>asabiylik</span> <br> va <span>behollikdan</span> qutilishni
+          </li>
+          <li class="date__inner-item">
+            — <span>Shirinlik va nonga</span> bo’lgan <br> qaramlikni 3 kunda yo’qotishni
+          </li>
+          <li class="date__inner-item">
+            — Sizni semirtirayotgan <br> garmonni aniqlab -10 kg <br> gacha <span>ozishni va qayta <br>
+              semirmaslikni</span> o’rganasiz
+          </li>
+        </ul>
+        <img src="./images/speakerMini.avif" data-src="./images/speaker.avif" alt="Invertor rasmi" decoding="async"
+          loading="lazy" class="blur-up date__img only_tablet speakerImg minifyImg" width="268" height="457">
+        <div class="speaker__gradient"></div>
+        <div class="flex">
+          <button class="date__bottom-btn registerBtn">>>> bepul qatnashish <<< </button>
+              <div class="date__timer" id="timer">02 : 00</div>
+        </div>
+        <div class="gradient"></div>
+      </div>
+      <p class="free__text registerBtn">
+        Bepul qatnashish uchun bosing
+        <img src="./images/arrow.avif" alt="arrow" decoding="async" loading="lazy" class="free__text__arrow" width="88"
+          height="88">
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="registrationModal" class="homeModal" style="display: none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button class="closeButton" id="closeModalBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h1 class="homeFormTopTitle">
+          Bepul darsga <br />
+          RO'YXATDAN O'TISH
+        </h1>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <div class="country-selector">
+              <div class="selected-country" id="selectedCountry">
+                <span id="selectedCountryCode">+998</span>
+                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+              <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+            </div>
+            <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+              autocomplete="tel" />
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display: none">
+            ❌ Telefon raqam mos emas!
+          </p>
+        </div>
+        <button type="submit" class="HomeFormBtn" id="submitBtn">
+          ro’yxatdan o’tish </button>
+      </form>
+    </div>
+  </div>
+  <script defer src="../js/app.js"></script>
+</body>
+
+</html>

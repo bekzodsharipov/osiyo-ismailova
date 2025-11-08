@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osiyo Ismailova</title>
+  <style>
+* { padding: 0; margin: 0; box-sizing: border-box; } body { font-family: sans-serif; position: relative; min-height: 100vh; } .mobile-event-header { padding: 0 10px; } .mobile-event-container { max-width: 320px; backdrop-filter: blur(0px); width: 100%; display: flex; background-color: #E2DAD2; opacity: 0.1px; align-items: center; justify-content: space-between; padding: 18px 21px 17px; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px; margin: 0 auto 16px; } .mobile-event-info { display: flex; align-items: center; justify-content: space-between; gap: 7px; svg { margin-bottom: 3px; } } .mobile-event-date { color: black; font-family: Poppins, sans-serif; line-height: 100%; font-weight: 500; font-size: 16px; } .mobile-event-time { font-family: Poppins, sans-serif; line-height: 30px; font-weight: 700; font-style: Bold; font-size: 18px; color: black; } .mobile-main-content { text-align: center; } .mobile-content-wrapper { width: 100%; padding: 0 10px; } .mobile-main-title { font-family: "Big Shoulders Display", sans-serif; font-weight: 900; line-height: 125%; font-size: clamp(24px, 7.5vw, 27px); max-width: 346px; margin: 0 auto 6px; text-transform: uppercase; span { color: #9B1121; } } .mobile-main-text { font-weight: 400; font-size: 14px; line-height: 100%; text-align: center; margin-bottom: 8px; span { color: #2E9455; } } .mobile-content-img { min-height: 362px; display: flex; flex-direction: column; position: relative; max-width: 310px; margin-left: auto; margin-right: auto; } .mobile-hero-image { display: inline-flex; max-width: 289px; object-fit: contain; height: auto; width: 100%; margin: 0 auto; position: relative; z-index: 1; margin-bottom: -50px; margin-left: 20px; } .mobile-cta-button { font-family: Poppins, sans-serif; width: 100%; min-height: 61px; padding: 22px 37px; background-color: #9B1121; font-size: 18px; font-weight: 700; text-transform: uppercase; border: none; color: white; margin-left: auto; margin-right: auto; border-radius: 15px; margin-bottom: 15px; cursor: pointer; position: relative; z-index: 2; max-width: 307px; width: 100%; display: flex; align-items: center; justify-content: center; } .mobile-benefit-text { color: black; font-size: 14px; line-height: 1.4; font-weight: 500; } .mobile-main-content { padding-bottom: 15px; } .mobile-text { font-size: 14px; line-height: 23px; font-weight: 700; font-family: Inter, sans-serif; color: #444444; text-align: center; } @media (max-width: 500px) { .mobile-hero-image { max-width: 253px; width: 100%; margin-left: auto; margin-right: auto; display: flex; align-items: center; } .mobile-cta-button { font-size: 18px; line-height: 100%; } } @media (max-width: 439px) { .mobile-event-date { font-size: 16px; } .mobile-event-time { font-size: 20px; } .mobile-event-container { padding: 15px 18px 16px; margin-bottom: 10px; } } .blur-up { filter: blur(10px); transition: filter 0.4s ease-out; } .hero__right_info__box { max-width: 313px; padding: 10px 32px 27px 13px; padding-left: 30px; padding-right: 31px; position: relative; z-index: 10; width: 100%; margin-top: -60px; border-radius: 24px; margin-bottom: 9px; color: white; background-color: rgba(0, 0, 0, .1); backdrop-filter: blur(50px); border: 3px solid rgba(0, 0, 0, .1); bottom: 1px; } .hero__right_list { text-align: start; } .hero__right_infobox-title { font-size: 18px; line-height: 20px; margin-bottom: 6.5px; } .hero__right_list__item { font-size: 12px; line-height: 18px; font-weight: 500; } .hero__right_list__item:nth-child(1) { max-width: 202px; width: 100%; } .hero__right_list__item:nth-child(2) { max-width: 251px; width: 100%; } .hero__registerBtn { padding: 23px 20px; border-radius: 15px; margin-bottom: 12px; font-size: 18px; max-width: 307px; margin-left: auto; margin-right: auto; } @media screen and (max-width: 768px) { .hero__right_info__box { padding: 10px 31px 13px 13px; padding-left: 30px; padding-right: 0px; margin-top: -50px; } } body { font-family: Poppins, sans-serif; } .timer__box { margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center; font-size: 28px; line-height: 23px; font-weight: 700; font-family: Inter, sans-serif; margin-bottom: 10px; } .description { padding-bottom: 52px; } .description__container { padding-top: 10px; max-width: 1200px; width: 100%; margin-left: auto; margin-right: auto; padding-right: 10px; padding-left: 10px; display: flex; flex-direction: column; align-items: center; } .description__title { font-family: Inter, sans-serif; font-weight: 400; font-size: clamp(25px, 6vw, 28px); line-height: 42px; text-align: center; text-transform: uppercase; color: black; margin-bottom: 25px; } .description__title>span { font-weight: 700; color: #9B1121; } .description__row { display: grid; grid-template-columns: 1fr; max-width: 309px; gap: 24px; margin-bottom: 34px; } .description__col { border: 1px solid #9B1121; border-radius: 8px; padding: 27px 14px 24px 28px; display: flex; align-items: center; position: relative; } .description__col-number { position: absolute; left: 0; transform: translateX(-50%); border-radius: 30px; background-color: #9b1121; font-family: Poppins, sans-serif; font-weight: 400; font-size: 14px; line-height: 23px; text-align: center; color: white; } .description__col-text { font-family: Poppins, sans-serif; font-weight: 400; text-align: start; font-size: 14px; line-height: 20px; } .description__col-text>span { font-weight: 600; } .desc__btn { width: 100%; } .hero { padding-bottom: 0; } .description__container { padding-left: 10px; } .description__col-number { font-size: 14px; padding: 1.69px 6.5px 2.31px 6.5px; line-height: 23px; border-radius: 8px; left: 50%; top: 0; transform: translateX(-50%) translateY(-50%); } .desc__btn { width: 100%; display: flex; flex-direction: column; align-items: center; } .hero__registerBtn { display: flex; align-items: center; justify-content: center; max-width: 430px; width: 100%; background-color: #9b1121; border-radius: 30px; font-weight: 700; font-size: 18px; line-height: 23.25px; color: #fff; text-align: center; padding: 37px 20px; margin-bottom: 12px; border: none; cursor: pointer; } .mobile__arrow-box { display: flex; align-items: center; position: relative; margin-top: -25px; } .mobile__arrow-svg { margin-left: -33px; margin-top: -12px; } .mobile-arrow-text { max-width: 190px; width: 100%; font-family: Poppins, sans-serif; font-weight: 500; font-size: 14px; line-height: 18px; color: #444444; } @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-90%); } } label { display: block; font-size: 16px; color: #000; margin-bottom: 10px; margin-top: 30px; } input[type="text"] { width: 100%; padding: 15px 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; color: #000; } .error-message { color: #cb0000; font-size: 14px; margin-top: 5px; display: none; }
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class="mobile-event-header">
+    <div class="mobile-event-container">
+      <div class="mobile-event-info">
+        <img src="./images/calendar.svg" alt="calendar" width="24" height="24" loading="lazy" decoding="async">
+        <p class="mobile-event-date">24-Oktyabr</p>
+      </div>
+      <b class="mobile-event-time">20:00</b>
+    </div>
+  </div>
+  <section class="mobile-main-content">
+    <div class="mobile-content-wrapper">
+      <h1 class="mobile-main-title">Qanday qilib bolani <span>uy sharoitida antibiotiklarsiz</span> immunitetini
+        oshirish mumkin?
+      </h1>
+      <div class="mobile-content-img">
+        <img src="./images/speakerMini.avif" data-src="./images/speaker.avif" alt="speaker" decoding="async"
+          loading="lazy" class="mobile-hero-image speaker_img blur-up" height="289" width="408">
+        <div class="hero__right_info__box">
+          <h3 class="hero__right_infobox-title">Osiyo Ismailova</h3>
+          <ul class="hero__right_list">
+            <li class="hero__right_list__item">
+              Dietolog va Nutritsolog
+            </li>
+            <li class="hero__right_list__item">
+              “Isma” bolalar va kattalar uchun “Halol vitamin” brendi asoschisi
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="mobile-text">Shoshiling, joylar soni oz qoldi!</p>
+      <button class="mobile-cta-button registerBtn">RO’YXATDAN O’TISH >>></button>
+    </div>
+  </section>
+
+  <div class="lazyLoad">
+  </div>
+
+
+
+  <!-- Modal -->
+  <div id="registrationModal" class="homeModal" style="display: none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button class="closeButton" id="closeModalBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h1 class="homeFormTopTitle">
+          MASTERKLASSGA <br />
+          RO'YXATDAN O'TISH
+        </h1>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <div class="country-selector">
+              <div class="selected-country" id="selectedCountry">
+                <span id="selectedCountryCode">+998</span>
+                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+              <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+            </div>
+            <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+              autocomplete="tel" />
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display: none">
+            ❌ Telefon raqam mos emas!
+          </p>
+        </div>
+        <button type="submit" class="HomeFormBtn" id="submitBtn">
+          ro’yxatdan o’tish </button>
+      </form>
+    </div>
+  </div>
+
+
+  <script>
+   const img = document.querySelector(".mobile-hero-image"); const bigSrc = img.getAttribute("data-src"); const highRes = new Image(); highRes.src = bigSrc; highRes.onload = () => { img.src = bigSrc; img.classList.remove("blur-up"); };
+  </script>
+  <script defer src="./js/app.js"></script>
+</body>
+
+</html>

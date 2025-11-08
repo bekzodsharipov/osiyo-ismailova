@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osiyo Ismailova</title>
+  <style>
+* { margin: 0; padding: 0; box-sizing: border-box; } body { background-color: white; } .container { max-width: 490px; width: 100%; margin-left: auto; position: relative; margin-right: auto; font-family: sans-serif; padding-bottom: 66px; padding-top: 30px; } .header { width: 100%; display: flex; align-items: center; justify-content: space-between; margin-bottom: 34px; max-width: 360px; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; } .header__col__title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: clamp(19px, 4vw, 20px); line-height: 27px; color: black; text-transform: uppercase; } .header__col__titles { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: clamp(25px, 4vw, 28px); line-height: 27px; color: black; text-transform: uppercase; } .header__col__text { color: black; font-family: "Bricolage Grotesque", sans-serif; font-size: clamp(12px, 3.4vw, 18px); font-weight: 400; } .header__col { flex-direction: column; align-items: start; } .description { font-size: clamp(10px, 3vw, 14px); font-weight: 400; line-height: 130%; text-align: center; margin-bottom: 11px; } .description span, .info__text span { color: #fb2c36; } .title { font-weight: 800; font-size: clamp(24px, 7vw, 36px); text-align: center; color: black; font-family: "Bricolage Grotesque", sans-serif; text-transform: uppercase; margin-bottom: 7px; } .text { font-family: Montserrat, sans-serif; font-weight: 500; font-size: clamp(13px, 3vw, 16px); line-height: 130%; text-align: center; } .text>span { font-weight: 700; } .header__line { background-color: #0000001A; height: 36px; width: 1px; } .title span { color: #7DCC3D; } .center { padding-top: 24px; position: relative; display: flex; align-items: center; justify-content: center; width: 100%; } .speaker_img { max-width: 299px; margin-left: auto; margin-right: auto; display: flex; width: 100%; height: 428px; margin-bottom: -113px; margin-top: 18px; } .center__arrow { position: absolute; left: 12px; top: 8px; } .button { cursor: pointer; padding: 40px 0; width: 100%; position: relative; z-index: 30; border: none; background: linear-gradient(267.14deg, #58C500 3.93%, #91ED47 48.14%, #58C500 96.31%), radial-gradient(55.13% 55.13% at 50% 2.23%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%); border-top: 4.93px solid #95DA5E; border-left: 4.93px solid #95DA5E; border-right: 4.93px solid #95DA5E; box-shadow: 0px 6px 0px 0px #419200; font-family: Montserrat, sans-serif; font-size: 20px; border-radius: 15px; max-width: 400px; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center; color: #232323; text-transform: uppercase; font-weight: 700; } .blur-up { filter: blur(10px); transition: filter 0.4s ease-out; } .gradient { background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF); background-image: url(./images/bg.avif); background-repeat: no-repeat; background-size: contain; margin-left: auto; margin-right: auto; display: flex; position: absolute; max-width: 494px; top: -116.5px; width: 100%; height: 253px; display: flex; align-items: center; justify-content: center; margin-left: 18px; } .info__box { padding: 13px; border: 1px solid #e5e7eb; border-radius: 16px; display: flex; align-items: start; gap: 8px; position: relative; } .info__box svg { flex-shrink: 0; } .info__text { font-size: 14px; font-weight: 500; } .info__right_arrow { position: absolute; right: 0; top: -31px; } .description { padding-top: 60px; } .description__title { font-weight: 800; font-size: clamp(29px, 5vw, 36px); font-family: "Bricolage Grotesque", sans-serif; line-height: 120%; text-transform: uppercase; color: black; margin-bottom: 25px; } .description__box { max-width: 326px; width: 100%; display: flex; flex-direction: column; margin-left: auto; margin-right: auto; margin-bottom: 15px; } .description__col { align-items: start; text-align: start; gap: 11px; border-left: 1px solid #000000; padding-left: 3px; margin-bottom: 30px; } .description__col__title { font-weight: 400; font-family: "Bricolage Grotesque", sans-serif; font-size: clamp(30px, 4vw, 41px); line-height: 100%; margin-bottom: 25px; text-transform: uppercase; } .ml { margin-left: auto; display: flex; align-items: end; } .description__text { font-weight: 400; font-size: clamp(14px, 4vw, 16px); line-height: 21px; text-align: start; } .description__text span { font-weight: 600; color: black; } @media (max-width:376px) { .speaker_img { height: 310px; max-width: clamp(230px, 5vw, 250px); margin-bottom: -84px; } .button { font-size: 21px; padding: 25px 0; max-width: 400px; } .gradient { margin-left: 0; } }
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="header__col">
+        <h3 class="header__col__text">Vebinar kuni</h3>
+        <p class="header__col__title">23-24-25-Sentabr</p>
+      </div>
+      <div class="header__col">
+        <h3 class="header__col__text">Vebinar vaqti:</h3>
+        <p class="header__col__titles">20:00</p>
+      </div>
+    </div>
+
+    <h1 class="title">
+      asabiylik, behollik va <span>dietalarsiz ozish</span>ning sinalgan usuli
+    </h1>
+    <p class="text"><span>Stress, behollik</span> va <span>qayta semirish</span>larsiz <br> ozishni, garmonlar ilmi
+      orqali
+      o’rganing!</p>
+
+    <img src="./images/speakerMini.avif" data-src="./images/speaker.avif" alt="speaker" decoding="async" loading="lazy"
+      class="speaker_img blur-up" height="299" width="428">
+
+
+
+    <div class="" style="padding-left: 15px; padding-right: 15px;">
+
+      <button class="button registerBtn">bepul qatnashish</button>
+
+      <div class="description">
+        <h3 class="description__title">Bepul darsda siz:</h3>
+
+        <div class="description__box">
+          <div class="description__col">
+            <h4 class="description__col__title">01</h4>
+            <p class="description__text">Bola nega <span>shamollashini <br> asosiy sabablarini</span> bilib olasiz
+            </p>
+          </div>
+        </div>
+        <div class="description__box ml">
+          <div class="description__col">
+            <h4 class="description__col__title">02</h4>
+            <p class="description__text">Bola nega <span>shamollashini <br> asosiy sabablarini</span> bilib olasiz
+            </p>
+          </div>
+        </div>
+        <div class="description__box">
+          <div class="description__col">
+            <h4 class="description__col__title">03</h4>
+            <p class="description__text">Bola nega <span>shamollashini <br> asosiy sabablarini</span> bilib olasiz
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button class="button registerBtn">bepul qatnashish</button>
+    </div>
+  </div>
+  </div>
+
+
+  <div id="registrationModal" class="homeModal" style="display: none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button class="closeButton" id="closeModalBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h1 class="homeFormTopTitle">
+          Bepul darsga <br />
+          RO'YXATDAN O'TISH
+        </h1>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <div class="country-selector">
+              <div class="selected-country" id="selectedCountry">
+                <span id="selectedCountryCode">+998</span>
+                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+              <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+            </div>
+            <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+              autocomplete="tel" />
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display: none">
+            ❌ Telefon raqam mos emas!
+          </p>
+        </div>
+        <button type="submit" class="HomeFormBtn" id="submitBtn">
+          ro'yxatdan o'tish </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const img = document.querySelector(".speaker_img");
+    const bigSrc = img.getAttribute("data-src");
+
+    const highRes = new Image();
+    highRes.src = bigSrc;
+    highRes.onload = () => {
+      img.src = bigSrc;
+      img.classList.remove("blur-up");
+    };
+  </script>
+  <script defer src="../js/app.js"></script>
+</body>
+
+</html>
